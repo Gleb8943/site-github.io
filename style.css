@@ -1,0 +1,162 @@
+.teles{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+    background: grey;
+ }
+
+
+ @media (max-width: 600px){
+  .teles{
+    flex-direction: column;
+  }
+ }
+
+
+ .hemon:hover{
+  color: white;
+ }
+
+
+ .relon:hover{
+  color: white;
+ }
+
+
+ .vemol:hover{
+  color: white;
+ }
+
+
+
+
+
+ .helu{
+   display: block;
+   text-align: center;
+ }
+
+
+ .butt{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 150px;
+   margin-top: 170px;
+ }
+
+
+ button:hover{
+    background: grey;
+    color: white;
+  }
+
+
+  button{
+  animation: pulse 2s infinite;
+ }
+
+
+ .button{
+  animation: none;
+ }
+
+
+ @keyframes pulse{
+  50% {transform: scale(2)}
+ }
+
+
+
+
+
+ .teles{
+  display: flex;
+  Justify-content: space-between;
+  text-align: center;
+  background: grey;
+  padding: 25px;
+  margin-top: 35px;
+ }
+
+ .holunt{
+  animation: none;
+  width: 250px;
+  height: 65px;
+ }
+
+
+ .products{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+   gap: 450px;
+ }
+
+
+ .product-card{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   border: 1px solid color #ccc;
+   padding: 10px;
+ }
+
+
+ .product-content{
+   flex-grow: 1;
+ }
+
+
+ .product-actions{
+   display: flex;
+   justify-content: space-between;
+   margin-top: auto;
+   }
+
+
+   .cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+ }
+
+
+ .card{
+    border: none;
+    border-radius: 25px;
+    font-size: 50px;
+  }
+
+
+  .butto{
+  animation: none;
+ }
+
+ @keyframes pulse{
+  50% {transform: scale(2)}
+ }
+
+
+ .button:hover{
+    background: grey;
+    color: white;
+  }
+
+
+  .tel{
+  display: flex;
+  Justify-content: space-between;
+  text-align: center;
+  background: grey;
+  padding: 65px;
+  margin-top: 35px;
+ }
+
+
+ @media (max-width: 600px){
+  .tel{
+    flex-direction: column;
+  }
+ }
