@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  background: rgb(150, 146, 146);
+  background: rgb(143, 137, 137);
   margin-bottom: 24px;
  }
 
@@ -35,6 +35,7 @@
  .helu{
    display: block;
    text-align: center;
+
  }
 
 
@@ -49,7 +50,7 @@
 
 
  button:hover{
-    background: grey;
+    background: rgb(85, 83, 83);
     color: white;
 
  }
@@ -90,6 +91,7 @@
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
    gap: 450px;
+   margin-top: 24px;
  }
 
 
@@ -146,26 +148,26 @@
 
   .tel{
   display: flex;
-  Justify-content: space-between;
+  Justify-content: space-around;
   text-align: center;
-  background: rgb(20, 19, 19);
-  padding: 65px;
-  margin-top: 35px;
+  background: rgb(44, 43, 43);
+  padding: 150px;
+  margin-top: 75px;
  }
 
 
  .hemon{
-  color: rgb(102, 98, 98);
+  color: rgb(116, 109, 109);
  }
 
 
  .relon{
-  color:rgb(102, 98, 98);
+  color:rgb(116, 109, 109);
  }
 
 
  .vemol{
-  color:rgb(102, 98, 98);
+  color:rgb(116, 109, 109);
  }
 
 
@@ -184,14 +186,7 @@
  }
 
 
- @media (max-width: 600px){
-  .products{
-    flex-direction: column;
-  }
- }
-
-
- @media (max-width: 600px){
+  @media (max-width: 600px){
   .tel{
     flex-direction: column;
   }
