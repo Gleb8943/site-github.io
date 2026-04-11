@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-    background: grey;
+  background: rgb(150, 146, 146);
+  margin-bottom: 24px;
  }
 
 
@@ -13,17 +14,17 @@
  }
 
 
- .hemon:hover{
+ .hem:hover{
   color: white;
  }
 
 
- .relon:hover{
+ .relo:hover{
   color: white;
  }
 
 
- .vemol:hover{
+ .vem:hover{
   color: white;
  }
 
@@ -50,6 +51,13 @@
  button:hover{
     background: grey;
     color: white;
+
+ }
+
+
+ .butto:hover{
+    background: green;
+    color: white;
   }
 
 
@@ -70,15 +78,6 @@
 
 
 
-
- .teles{
-  display: flex;
-  Justify-content: space-between;
-  text-align: center;
-  background: grey;
-  padding: 25px;
-  margin-top: 35px;
- }
 
  .holunt{
   animation: none;
@@ -140,7 +139,7 @@
 
 
  .button:hover{
-    background: grey;
+    background: orange;
     color: white;
   }
 
@@ -149,9 +148,46 @@
   display: flex;
   Justify-content: space-between;
   text-align: center;
-  background: grey;
+  background: rgb(20, 19, 19);
   padding: 65px;
   margin-top: 35px;
+ }
+
+
+ .hemon{
+  color: rgb(102, 98, 98);
+ }
+
+
+ .relon{
+  color:rgb(102, 98, 98);
+ }
+
+
+ .vemol{
+  color:rgb(102, 98, 98);
+ }
+
+
+ .hemon:hover{
+  color: white;
+ }
+
+
+ .relon:hover{
+  color: white;
+ }
+
+
+ .vemol:hover{
+  color: white;
+ }
+
+
+ @media (max-width: 600px){
+  .products{
+    flex-direction: column;
+  }
  }
 
 
